@@ -6,16 +6,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".Activity.MainActivity">
 
 
     <com.mancj.materialsearchbar.MaterialSearchBar
         android:id="@+id/searchBar"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:mt_hint="Món ăn, nhà hàng"
         app:mt_maxSuggestionsCount="5"
-        app:mt_speechMode="false" />
+        app:mt_speechMode="false"
+        tools:layout_conversion_absoluteHeight="48dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_conversion_absoluteWidth="411dp" />
 </LinearLayout>
 
 
