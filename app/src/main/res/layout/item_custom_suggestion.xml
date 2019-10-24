@@ -13,7 +13,7 @@
         android:layout_width="48dp"
 
         android:layout_height="43dp"
-        app:srcCompat="@android:drawable/btn_star_big_on" />
+        app:srcCompat="@drawable/food_icon" />
 
     <LinearLayout
         android:orientation="vertical"
@@ -22,20 +22,20 @@
         android:layout_marginLeft="16dp">
 
         <TextView
-            android:text="TextView"
+            android:id="@+id/title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/title"
+            android:text="FOOD_NAME"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@android:color/black"
             android:textStyle="normal|bold" />
 
         <TextView
-            android:text="TextView"
+            android:id="@+id/subtitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/subtitle"
-            android:layout_marginTop="4dp" />
+            android:layout_marginTop="4dp"
+            android:text="cost VND" />
     </LinearLayout>
 
 </LinearLayout>

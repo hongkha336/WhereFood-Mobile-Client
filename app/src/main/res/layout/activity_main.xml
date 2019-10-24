@@ -20,6 +20,11 @@
         tools:layout_editor_absoluteY="0dp"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_conversion_absoluteWidth="411dp" />
+
+    <ListView
+        android:id="@+id/lv_Resuilt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </LinearLayout>
 
 
