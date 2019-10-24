@@ -17,6 +17,7 @@
         <activity android:name=".Activity.FoodInfo" />
         <activity android:name=".Activity.MainActivity">
 =======
+        <activity android:name=".MainActivity">
 >>>>>>> parent of 08c9dec... Add searchbar and suggest UI
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
