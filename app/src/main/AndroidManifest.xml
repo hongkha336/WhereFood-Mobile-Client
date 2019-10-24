@@ -12,9 +12,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
 
         <activity android:name=".Activity.FoodInfo" />
         <activity android:name=".Activity.MainActivity">
+=======
+>>>>>>> parent of 08c9dec... Add searchbar and suggest UI
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
