@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "204505620429",
+    "firebase_url": "https://my-project-1554387197146.firebaseio.com",
+    "project_id": "my-project-1554387197146",
+    "storage_bucket": "my-project-1554387197146.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204505620429:android:5ee624c9dde78a19256e84",
+        "android_client_info": {
+          "package_name": "com.wtf.wherefood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204505620429-3fn5qvi2baa2f7bk87b89c2q7j9f345n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wtf.wherefood",
+            "certificate_hash": "5bb5fb5b7b16d8b575b2c0d6851b5ed82302e86f"
+          }
+        },
+        {
+          "client_id": "204505620429-f91v5d565ucn1702oalhk3jpv8t7lv3h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnhGXHdbrHMqtLaFKKh_jyWnCoFTad_0c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "204505620429-f91v5d565ucn1702oalhk3jpv8t7lv3h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ReportActivity"
+    android:background="@drawable/report_bg_1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:textColor="#fff"
+            android:layout_marginTop="105dp"
+            android:textStyle="bold"
+            android:textSize="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="top"
+            android:text="REPORT"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tell us what happened to you???"/>
+
+            <EditText
+                android:id="@+id/txtReport"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="150dp"
+                android:background="@drawable/round_corners"
+                android:paddingLeft="5px"
+                android:layout_marginBottom="10px"/>
+
+
+            <TextView
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textSize="13dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Guess:"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="2dp">
+                <TextView
+
+                    android:textColor="#797777"
+                    android:layout_gravity="start"
+                    android:layout_marginRight="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round_corners"
+                    android:text="Wrong prices"
+                    android:id="@+id/txtgs1"/>
+
+
+                <TextView
+                    android:textColor="#797777"
+                    android:layout_gravity="start"
+                    android:layout_marginRight="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round_corners"
+                    android:text="Bad taste"
+                    android:id="@+id/txtgs2"/>
+
+                <TextView
+                    android:textColor="#797777"
+                    android:layout_gravity="start"
+                    android:layout_marginRight="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round_corners"
+                    android:text="Waiter is not friendly"
+                    android:id="@+id/txtgs3"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="2dp">
+
+
+                <TextView
+                    android:textColor="#797777"
+                    android:layout_gravity="start"
+                    android:layout_marginRight="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round_corners"
+                    android:text="Wrong address"
+                    android:id="@+id/txtgs4"/>
+
+
+
+
+                <TextView
+                    android:textColor="#797777"
+                    android:layout_gravity="start"
+                    android:layout_marginRight="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round_corners"
+                    android:text="Expensive"
+                    android:id="@+id/txtgs6"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="2dp">
+
+
+                <TextView
+                    android:textColor="#797777"
+                    android:layout_gravity="start"
+                    android:layout_marginRight="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round_corners"
+                    android:text="Description pictures are not exactly"
+                    android:id="@+id/txtgs5"/>
+
+            </LinearLayout>
+
+
+            <com.ornach.nobobutton.NoboButton
+                android:layout_marginTop="100px"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                app:nb_textSize="20dp"
+                app:nb_text="Submit"
+                app:nb_borderColor="#FFFFFF"
+                app:nb_borderWidth="2dp"
+                app:nb_backgroundColor="#EF3D56"
+                app:nb_focusColor="#B83CC3"
+                app:nb_textColor="#FFF"
+                app:nb_radius="5dp"
+                android:id="@+id/btnSubmit"/>
+
+            <com.github.ybq.android.spinkit.SpinKitView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/spin_kit"
+                style="@style/SpinKitView.CubeGrid"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                app:SpinKit_Color="@color/colorWhite" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

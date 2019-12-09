@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SMSActivity"
+    android:background="#03a198">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="50dp"
+            android:text="SIGN UP"
+            android:layout_marginBottom="50dp"/>
+
+        <TextView
+            android:layout_gravity="start"
+            android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Create new account with your phone number"/>
+
+        <LinearLayout
+        android:padding="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:layout_marginRight="20dp">
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:src="@drawable/flag_vn"/>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text=" +84"
+             android:textColor="#000"
+             android:textStyle="bold"
+             android:layout_gravity="center"
+             android:layout_marginRight="10dp"/>
+        </LinearLayout>
+            <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="123456789"
+                android:inputType="number"
+        android:paddingLeft="20dp"
+        android:background="#fff"
+                android:id="@+id/txt_sms_phone"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This phone number was existed"
+            android:textColor="#ff0000"
+            android:gravity="center_horizontal"
+            android:id="@+id/txt_sms_status"/>
+        <com.ornach.nobobutton.NoboButton
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            app:nb_textSize="15dp"
+            app:nb_text="Validate phone number"
+            app:nb_borderColor="#FFFFFF"
+            app:nb_borderWidth="2dp"
+            app:nb_backgroundColor="@color/colorPrimary"
+            app:nb_focusColor="#B83CC3"
+            app:nb_textColor="#ffffff"
+            app:nb_radius="5dp"
+            android:id="@+id/btn_sms_confirm"/>
+
+        <com.github.ybq.android.spinkit.SpinKitView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/spin_kit"
+            style="@style/SpinKitView.CubeGrid"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            app:SpinKit_Color="@color/colorWhite" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

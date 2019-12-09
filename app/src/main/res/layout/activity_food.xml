@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FoodAcivity">
+
+    <!--<com.smarteist.autoimageslider.SliderView-->
+        <!--android:id="@+id/imageSlider"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="200dp"-->
+        <!--app:sliderAnimationDuration="600"-->
+        <!--app:sliderAutoCycleDirection="back_and_forth"-->
+        <!--app:sliderAutoCycleEnabled="true"-->
+        <!--app:sliderCircularHandlerEnabled="true"-->
+        <!--app:sliderIndicatorAnimationDuration="600"-->
+        <!--app:sliderIndicatorGravity="center_horizontal|bottom"-->
+        <!--app:sliderIndicatorMargin="10dp"-->
+        <!--app:sliderIndicatorOrientation="horizontal"-->
+        <!--app:sliderIndicatorPadding="1dp"-->
+        <!--app:sliderIndicatorRadius="1dp"-->
+        <!--app:sliderIndicatorSelectedColor="#5A5A5A"-->
+        <!--app:sliderIndicatorUnselectedColor="#FFF"-->
+
+        <!--/>-->
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/layout_info_sur"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:gravity="center">-->
+
+
+    <!--</LinearLayout>-->
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:layout_marginLeft="20dp">-->
+
+
+
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<ImageView-->
+                <!--android:padding="2dp"-->
+                <!--android:layout_width="20dp"-->
+                <!--android:layout_height="20dp"-->
+                <!--android:src="@drawable/ic_food"-->
+                <!--android:layout_gravity="center"-->
+
+                <!--/>-->
+            <!--<TextView-->
+                <!--android:id="@+id/txt_info_name"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="TextView"-->
+                <!--android:textSize="18dp"-->
+                <!--android:textStyle="bold"-->
+                <!--android:textColor="#880000"-->
+                <!--android:layout_gravity="center_vertical"-->
+                <!--android:gravity="center_vertical"/>-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<ImageView-->
+                <!--android:padding="2dp"-->
+                <!--android:layout_width="20dp"-->
+                <!--android:layout_height="20dp"-->
+                <!--android:src="@drawable/ic_money"/>-->
+            <!--<TextView-->
+                <!--android:id="@+id/txt_info_cost"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="TextView"-->
+                <!--android:textSize="15dp"-->
+                <!--android:textColor="#ff9000"-->
+                <!--android:textStyle="bold"-->
+                <!--android:layout_gravity="center_vertical"/>-->
+        <!--</LinearLayout>-->
+
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<ImageView-->
+                <!--android:padding="2dp"-->
+                <!--android:layout_width="20dp"-->
+                <!--android:layout_height="20dp"-->
+                <!--android:src="@drawable/ic_pen"/>-->
+            <!--<TextView-->
+                <!--android:id="@+id/txtinfo_long_des"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="TextView"-->
+                <!--android:layout_gravity="center_vertical"-->
+                <!--android:textSize="15dp"/>-->
+        <!--</LinearLayout>-->
+
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal">-->
+
+
+            <!--<ImageView-->
+                <!--android:padding="2dp"-->
+                <!--android:layout_width="20dp"-->
+                <!--android:layout_height="20dp"-->
+                <!--android:src="@drawable/ic_yellow_mark"/>-->
+
+            <!--<TextView-->
+
+                <!--android:layout_width="wrap_content"-->
+                <!--android:id="@+id/txt_address"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="This is the location of this food"-->
+                <!--android:layout_gravity="center_vertical"-->
+                <!--android:textStyle="bold"-->
+                <!--android:textSize="15dp"-->
+                <!--android:textColor="#000"/>-->
+        <!--</LinearLayout>-->
+
+
+
+    <!--</LinearLayout>-->
+
+
+
+
+
+
+    <include layout="@layout/tab_sheet_layout"></include>
+
+
+
+
+
+
+</LinearLayout>
+
+

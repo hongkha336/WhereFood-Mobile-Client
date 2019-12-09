@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddFoodActivity"
+    android:background="@drawable/food_bg_3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="WFOOD THANKS FOR YOUR HELP!!!"/>
+
+        <TextView
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Food name:"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="40dp"
+            android:background="@drawable/round_corners"
+            android:paddingLeft="5px"
+            android:id="@+id/txtAddFood_FoodName"
+            />
+
+        <TextView
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prices:"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="40dp"
+            android:background="@drawable/round_corners"
+            android:paddingLeft="5px"
+            android:inputType="numberDecimal"
+            android:id="@+id/txtAddFood_Price"/>
+
+        <TextView
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Food Description:"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="100dp"
+            android:background="@drawable/round_corners"
+            android:paddingLeft="5px"
+            android:id="@+id/txtAddFood_FoodDescription"/>
+
+        <TextView
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address:"/>
+
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_corners"
+            android:spinnerMode="dropdown"/>
+
+        <com.ornach.nobobutton.NoboButton
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            app:nb_textSize="20dp"
+            android:layout_gravity="center"
+            app:nb_text="Open in maps"
+            app:nb_borderColor="#FFFFFF"
+            app:nb_borderWidth="2dp"
+            app:nb_backgroundColor="#009688"
+            app:nb_focusColor="#B83CC3"
+            app:nb_textColor="#FFF"
+            app:nb_radius="5dp"
+            android:layout_marginTop="10px"
+            android:id="@+id/btnOpenInMap"/>
+
+        <TextView
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pictures:"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:id="@+id/layout_sur_picture"
+            >
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/btn_add_pic"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_add_photo"/>
+        </LinearLayout>
+
+
+
+            <com.ornach.nobobutton.NoboButton
+                android:layout_marginTop="10px"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                app:nb_textSize="20dp"
+                app:nb_text="Submit"
+                app:nb_borderColor="#FFFFFF"
+                app:nb_borderWidth="2dp"
+                app:nb_backgroundColor="#EF3D56"
+                app:nb_focusColor="#B83CC3"
+                app:nb_textColor="#FFF"
+                app:nb_radius="5dp"
+                android:id="@+id/btnSubmit"/>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

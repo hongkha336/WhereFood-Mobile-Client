@@ -15,20 +15,14 @@
         android:layout_height="wrap_content"
         app:mt_hint="Món ăn, nhà hàng"
         app:mt_maxSuggestionsCount="5"
-<<<<<<< HEAD
         app:mt_speechMode="false"
-        tools:layout_conversion_absoluteHeight="48dp"
-        tools:layout_editor_absoluteY="0dp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_conversion_absoluteWidth="411dp" />
+        android:layout_margin="10dp"
+         />
 
     <ListView
-        android:id="@+id/lv_Resuilt"
+        android:id="@+id/lv_RS"
+        android:layout_margin="10dp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-=======
-        app:mt_speechMode="false" />
->>>>>>> parent of 08c9dec... Add searchbar and suggest UI
+        android:layout_height="match_parent"
+        android:divider="@android:color/transparent"/>
 </LinearLayout>
-
-

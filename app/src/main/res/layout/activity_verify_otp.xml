@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".VerifyOTP">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:text="Verification code"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15dp"
+        android:text="Please type the verification code send to"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15dp"
+        android:text="+01234567890"
+        android:textStyle="bold"
+        android:id="@+id/txt_ver_phone_no"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="13dp"
+        android:text="validate false"
+        android:layout_marginTop="72dp"
+        android:id="@+id/txt_otp_false"
+        android:textColor="@color/colorAccent"/>
+
+    <com.mukesh.OtpView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/otp_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:itemBackground="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        app:itemCount="6"
+        app:lineColor="@color/colorPrimary"
+        app:viewType="line"
+        />
+
+
+    <!--<com.ornach.nobobutton.NoboButton-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:layout_marginTop="30dp"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="45dp"-->
+        <!--app:nb_textSize="15dp"-->
+        <!--app:nb_text="CONFIRM"-->
+        <!--app:nb_borderColor="#FFFFFF"-->
+        <!--app:nb_borderWidth="2dp"-->
+        <!--app:nb_backgroundColor="#EF3D56"-->
+        <!--app:nb_focusColor="#B83CC3"-->
+        <!--app:nb_textColor="#FFF"-->
+        <!--app:nb_radius="5dp"-->
+        <!--android:id="@+id/btnConfirm"/>-->
+
+</LinearLayout>

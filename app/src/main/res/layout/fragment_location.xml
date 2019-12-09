@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <fragment
+        android:id="@+id/mapwhere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:scrollbars="vertical"
+        class="com.google.android.gms.maps.SupportMapFragment"/>
+
+    <com.ornach.nobobutton.NoboButton
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        app:nb_textSize="20dp"
+        app:nb_text="Bring me there!"
+        app:nb_borderColor="#FFFFFF"
+        app:nb_borderWidth="2dp"
+        app:nb_backgroundColor="#EF3D56"
+        app:nb_focusColor="#B83CC3"
+        app:nb_textColor="#FFF"
+        app:nb_radius="5dp"
+        app:nb_fontIcon="&#xf291;"
+        android:id="@+id/btnBringMe"
+        android:layout_gravity="bottom"/>
+
+</LinearLayout>

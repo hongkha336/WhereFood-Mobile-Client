@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity"
+    android:background="#03a198">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_wtf"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="W H E R E F O O D"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:padding="20dp"
+
+        android:layout_margin="30dp">
+
+        <EditText
+            android:paddingLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="20dp"
+            android:hint="Account or Phone number"
+            android:id="@+id/txt_account"
+            android:background="@drawable/rectan_edt"/>
+
+        <EditText
+
+            android:paddingLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="20dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:background="@drawable/rectan_edt"
+            android:id="@+id/txt_password"
+            />
+
+
+        <com.ornach.nobobutton.NoboButton
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            app:nb_textSize="20dp"
+            app:nb_text="Login"
+            app:nb_borderColor="#FFFFFF"
+            app:nb_borderWidth="2dp"
+            app:nb_backgroundColor="#EF3D56"
+            app:nb_focusColor="#B83CC3"
+            app:nb_textColor="#FFF"
+            app:nb_radius="5dp"
+            android:id="@+id/btnLogin"/>
+
+        <com.ornach.nobobutton.NoboButton
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            app:nb_textSize="20dp"
+            app:nb_text="Sign up"
+            app:nb_borderColor="#FFFFFF"
+            app:nb_borderWidth="2dp"
+            app:nb_backgroundColor="#EF3D56"
+            app:nb_focusColor="#B83CC3"
+            app:nb_textColor="#FFF"
+            app:nb_radius="5dp"
+            android:id="@+id/btnSignUp"/>
+
+        <TextView
+            android:id="@+id/txt_or"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="or"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"/>
+        <com.ornach.nobobutton.NoboButton
+            android:layout_gravity="center_horizontal"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            app:nb_textSize="20dp"
+            app:nb_text="Forget password"
+            app:nb_borderColor="#FFFFFF"
+            app:nb_borderWidth="2dp"
+            app:nb_backgroundColor="#EF3D56"
+            app:nb_focusColor="#B83CC3"
+            app:nb_textColor="#FFF"
+            app:nb_radius="5dp"
+            android:id="@+id/btnforget"/>
+
+        <com.github.ybq.android.spinkit.SpinKitView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/spin_kit"
+            style="@style/SpinKitView.CubeGrid"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            app:SpinKit_Color="@color/colorWhite" />
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
