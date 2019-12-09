@@ -1,6 +1,6 @@
 # WhereFood
 Report reference: https://drive.google.com/file/d/12V3cMAtmQKiE7qSktXowONkYrbx_6yE7/view?usp=sharing 
-## WhereFood has 3 seperate comopents:
+## WhereFood has 3 seperate compopents:
 1. WhereFood Mobile Application: 
 Git reference: https://github.com/hongkha336/WhereFood-Mobile-Client.git
 2. WhereFood API Server:
