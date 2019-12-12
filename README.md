@@ -1,4 +1,7 @@
 # WhereFood
+### Powerpoint
+Powerpoint reference: https://drive.google.com/file/d/1fAdcte052kfhwTkoHziiftgU0Oougub-/view?usp=sharing
+### Report
 Report reference: https://drive.google.com/file/d/12V3cMAtmQKiE7qSktXowONkYrbx_6yE7/view?usp=sharing 
 ## WhereFood has 3 seperate compopents:
 1. WhereFood Mobile Application: 
